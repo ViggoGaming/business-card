@@ -7,7 +7,7 @@ dim="$(tput dim)"
 underline="$(tput smul)"
 #end_underline="$(tput rmul)"
 #reverse="$(tput rev)"
-#hidden="$(tput invis)"
+hidden="$(tput invis)"
 #black="$(tput setaf 0)"
 red="$(tput setaf 1)"
 green="$(tput setaf 2)"
@@ -15,7 +15,7 @@ yellow="$(tput setaf 3)"
 blue="$(tput setaf 4)"
 magenta="$(tput setaf 5)"
 cyan="$(tput setaf 6)"
-#white="$(tput setaf 7)"
+white="$(tput setaf 7)"
 #default="$(tput setaf 9)"
 #bg_black="$(tput setab 0)"
 #bg_red="$(tput setab 1)"
@@ -38,6 +38,7 @@ ${cyan}│${reset}       ${underline}${bold}Web:${reset}  ${dim}https://www.${re
 ${cyan}│                                                       │
 ${cyan}│${reset}   ${underline}${bold}Twitter:${reset}  ${dim}https://twitter.com/${reset}${blue}viggo_gaming          ${cyan}│
 ${cyan}│${reset}    ${underline}${bold}GitHub:${reset}  ${dim}https://github.com/${reset}${green}ViggoGaming            ${cyan}│
+${cyan}│${reset}       ${underline}${bold}GPG:${reset}  ${dim}https://victorbuch.dk/${reset}${white}victorbuch.gpg      ${cyan}│
 ${cyan}│                                                       │
 ${cyan}│${reset}      ${underline}${bold}Card:${reset}  ${yellow}curl -sL https://git.io/JJfbw | sh        ${cyan}│
 ${cyan}│                                                       │
